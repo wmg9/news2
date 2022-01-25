@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  11
+  <script>
+  var url = location.search //获取url中"?"符后的字串 ('?modFlag=business&role=1')
+ var theRequest = new Object()
+ if (url.indexOf('?') != -1) {
+ var str = url.substr(1) //substr()方法返回从参数值开始到结束的字符串；
+;
+ var strs = str.split('=')
+ console.log(strs[1])
+//  for (var i = 0; i < str.length; i++) {
+//     theRequest[str[i].split('=')[0]] = str[i].split('=')[1]
+//  } 
+//  console.log(theRequest) //此时的theRequest就是我们需要的参数；
+//  console.log(theRequest.name) //此时的theRequest就是我们需要的参数；
+//  console.log(theRequest.type)
+
+ }
+  </script>
+</body>
+</html>

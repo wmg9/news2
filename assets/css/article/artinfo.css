@@ -1,0 +1,20 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #f2f3f5;
+  padding: 15px;
+}
+.layui-card {
+  position: relative;
+}
+#secondArt {
+  display: none;
+}
+#secondArt .layui-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,9 +1,45 @@
-* {
+html,
+body {
   margin: 0px;
   padding: 0px;
-}
-body {
   width: 100%;
   height: 100%;
-  background-image: url('/assets/images/login_bg.jpg');
+  background: url('/assets/images/login_bg.jpg') no-repeat center;
+  background-size: cover;
+}
+.loginAndreg {
+  width: 400px;
+  height: 310px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+}
+.title-box {
+  width: 100%;
+  height: 56px;
+  background: url('/assets/images/login_title.png') no-repeat center;
+}
+.reg {
+  display: none;
+}
+.layui-form {
+  padding: 0px 15px;
+}
+.layui-form-item {
+  position: relative;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+.layui-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.layui-form-item .layui-input {
+  padding-left: 30px;
 }
